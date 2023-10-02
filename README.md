@@ -75,3 +75,8 @@ php bin/console make:migration
 ```
 php bin/console doctrine:migrations:migrate
 ```
+
+- Make Crud befehl 
+```
+php bin/console make:admin:crud
+```
