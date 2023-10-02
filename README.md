@@ -44,6 +44,8 @@ Because many standard functionalities are needed, your agency suggested to use t
 https://my.skilldisplay.eu/en/skillset/120
 
 ### Befehle 
+- Datenbank definieren in .env
+
 - Make Bundler install
 ```
 composer require --dev symfony/maker-bundle
