@@ -42,3 +42,34 @@ Because many standard functionalities are needed, your agency suggested to use t
 
 #### Links
 https://my.skilldisplay.eu/en/skillset/120
+
+### Befehle 
+- Make Bundler install
+```
+composer require --dev symfony/maker-bundle
+```
+
+- controller erstellen lassen
+```
+symfony console make:controller
+```
+
+- Model erstellen lassen
+```
+symfony console make:entity
+```
+
+- Datenbabnk ertellen lassen 
+``` 
+php bin/console doctrine:database:create
+```
+
+- Migration erstellen
+```
+php bin/console make:migration
+```
+
+- Datenbank migrieren. Aktualisieren damit die Datenbank die neue Migration anwendet
+```
+php bin/console doctrine:migrations:migrate
+```
